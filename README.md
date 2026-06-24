@@ -63,6 +63,22 @@ DOI:
 
 ## Workflow
 
+### 0. Overview
+
+```text
+Input SST
+    ↓
+5 Detectors
+    ↓
+Quantile Normalization
+    ↓
+Probability + Uncertainty
+    ↓
+Front Extraction
+    ↓
+Global Reconstruction
+```
+
 ### 1. Multi-algorithm Frontal Detection
 
 Run:
@@ -171,6 +187,10 @@ The repository includes:
 ```
 
 which can be used to reproduce the entire workflow.
+
+Result for region 03:
+
+<img src='./overview_plot.jpg'>
 
 ---
 
